@@ -10,15 +10,19 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Abdullah Khalil | DevOps &amp; AWS Cloud Engineer">
 <meta property="og:description" content="I build clouds that deploy themselves. Terraform, Kubernetes, CI/CD and monitoring on AWS.">
-<meta property="og:image" content="/og.jpg">
+<meta property="og:url" content="https://abdullah-khalil.vercel.app/">
+<meta property="og:image" content="https://abdullah-khalil.vercel.app/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="canonical" href="https://abdullah-khalil.vercel.app/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Abdullah Khalil | DevOps &amp; AWS Cloud Engineer">
 <meta name="twitter:description" content="I build clouds that deploy themselves. Terraform, Kubernetes, CI/CD and monitoring on AWS.">
-<meta name="twitter:image" content="/og.jpg">
+<meta name="twitter:image" content="https://abdullah-khalil.vercel.app/og.jpg">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="preload" as="image" href="abdullah.webp">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Abdullah Khalil","jobTitle":"DevOps & AWS Cloud Engineer","address":{"@type":"PostalAddress","addressLocality":"Islamabad","addressCountry":"PK"},"alumniOf":"University of Peshawar","image":"/abdullah.webp","email":"mailto:boycloud32@gmail.com","sameAs":["https://www.linkedin.com/in/abdullahkhalil19/","https://github.com/abd-khalil-dev"],"knowsAbout":["AWS","Terraform","Kubernetes","Docker","Helm","Ansible","GitHub Actions","Prometheus","Grafana","CI/CD"]}
+{"@context":"https://schema.org","@type":"Person","name":"Abdullah Khalil","jobTitle":"DevOps & AWS Cloud Engineer","address":{"@type":"PostalAddress","addressLocality":"Islamabad","addressCountry":"PK"},"alumniOf":"University of Peshawar","image":"https://abdullah-khalil.vercel.app/abdullah.webp","url":"https://abdullah-khalil.vercel.app/","email":"mailto:boycloud32@gmail.com","sameAs":["https://www.linkedin.com/in/abdullahkhalil19/","https://github.com/abd-khalil-dev"],"knowsAbout":["AWS","Terraform","Kubernetes","Docker","Helm","Ansible","GitHub Actions","Prometheus","Grafana","CI/CD"]}
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -288,6 +292,13 @@ footer nav a:hover,.to-top:hover{color:var(--accent)}
 .contact-meta span::before{content:"";width:6px;height:6px;border-radius:50%;background:#1a0f0b}
 
 /* RESPONSIVE */
+@media (min-width:961px) and (max-width:1240px){
+  .hero .wrap{grid-template-columns:1.05fr .95fr}
+  .stage{width:min(360px,34vw)}
+  .pipeline{left:-8%;top:-10%;width:220px}
+  .cluster{right:-8%;width:210px}
+  .term-chip{left:-4%}
+}
 @media (max-width:960px){
   .hero .wrap,.about .wrap,.exp .wrap,.contact-box{grid-template-columns:1fr}
   .visual{min-height:520px;order:-1;margin-top:20px}
